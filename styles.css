@@ -1,0 +1,211 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  margin:0;
+}
+.main-nav{
+  padding: 0;
+  text-align: center;
+  
+}
+
+
+
+.main-nav li, 
+.main-nav li a{
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-right:20px;
+  text-transform: uppercase;
+  color:black;
+}
+.main-nav li a:hover{
+  color:turquoise;
+  text-decoration: underline;
+}
+
+.social{
+  margin-top:0px;
+  padding:0px;
+  text-align: center;
+}
+.social li,
+.social li a{
+  list-style-type: none;
+  display: inline;
+  margin-right:35px;
+  text-decoration: none;
+  color: #006877;
+  
+}
+.social li a:hover{
+  color:#f81200;
+}
+.slider
+{
+  height : 70 vh;
+}
+
+#showcase{
+  background-image: url(images/homeimage.jpg);
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration:none;
+}
+/* Welcome to dolphin */
+.bigger{
+  color:Blue;
+  font-size: 2.2em;
+  letter-spacing: 4px;
+  font-weight: bold;
+  margin-bottom:2px;
+}
+/* For two buttons */
+.btn{
+  padding:100px;
+  border-radius: 10px;
+}
+.btn-primary{
+  color:white;
+  background:#f81200;
+}
+.btn-outline-primary{
+  color:#f81200;
+  border:1px solid #f81200;
+}
+.btn-primary:hover{
+  color:#f81200;
+  border:1px solid #f81200;
+  background:transparent;
+}
+.btn-outline-primary:hover{
+  color:white;
+  background:#f81200;
+
+}
+.btns{
+  margin-top:10px;
+
+}
+.text-center{
+  text-align: center;
+}
+.trainers{
+  display: flex;
+  margin-top:30px;
+}
+.trainer-header{
+  margin-top:50px;
+}
+.container{
+  width:75%;
+  margin:auto;
+}
+.trainers .trainer-image{
+  border-radius: 70%;
+}
+.trainer-text{
+  padding:20px;
+}
+.card{
+  border:1px solid #ccc;
+  width:30%;
+  padding-bottom: 20px;
+}
+.card-title{
+  font-weight:bold;
+  font-size: 1.2em;
+  text-align: center;
+}
+.card-text{
+  text-align: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.active{
+  color: greenyellow;
+  text-decoration: underline;
+}
+
+.head {
+  float: left;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 8px;
+  margin-left:15px;
+  
+}
+.body{
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer{
+  background: maroon; 
+  padding:15px;
+  margin-top:60px;
+  font-weight: bold;
+}
+.nav-link{
+  color: whitesmoke;
+}
+.money ul li{
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 70ppx;
+  margin-left: 40px;
+  padding: 10px;
+
+}
+.teamnav{
+  list-style: none;
+}
+.teamnav li{
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: beige;
+
+}
+.teamnav li:hover{
+  background-color: lightblue;
+}
+.main-section{
+  margin-top:80px;
+  width:75%;
+  margin:auto;
+  padding:30px;
+  background-color:beige;
+  border: 1px white solid;
+  border-radius: 20px
+}
+.pic{
+  
+  border: 2px outset lightseagreen;
+  border-radius: 15px;
+  width: 20%;
+  padding:15px 15px 10px 15px;
+  margin:40px;
+  margin-left:70px;
+}
+
+.bimage
+{
+  background-image: url(images/canteen.jpg);
+}
+.white{
+  color:white;
+}
